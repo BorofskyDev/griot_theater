@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    background-image: linear-gradient(#000, #013447, #AF6A6D, #2391AC, #AF6A6D, #013447, #000);
+}
+
+.nav-custom {
+    padding: 10px;
+    background-color: #000;
+}
+
+.navbar-inner {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-custom .nav-item {
+    color: #fff;
+    padding-left: 70px;
+}
+
+.nav-custom .nav-item {
+    color: #fff;
+    padding-left: 30px;
+}
+
+.image-big {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f4f4f4;
+    border: 2px solid rgb(194, 194, 194);
+}
+
+.footer {
+    background-color: black;
+    background-image: linear-gradient(#023547, #000);
+    place-self: center;
+    grid-area: footer;
+    width: 100%;
+    height: 360px;
+    color: white;
+}
+
+.footer-container {
+    margin-top: 5px;
+    margin-left: 1px;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.footer-map {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-links {
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    align-items: left;
+    margin: 1px;
+}
+
+.iconcolor {
+    display: inline;
+    color: #2391AC;
+    margin-right: 1px;
+}
